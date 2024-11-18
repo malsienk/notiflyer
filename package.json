@@ -1,6 +1,6 @@
 {
   "name": "notiflyer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A reactive RxJS-based library for managing notifications with  customizable message.",
   "main": "lib/index.js",
   "module": "lib/esm/index.js",
@@ -27,7 +27,8 @@
     "build:esm": "tsc --p tsconfig.esm.json",
     "build": "npm run build:cjs && npm run build:esm",
     "lint": "node_modules/eslint/bin/eslint.js",
-    "format": "node_modules/prettier/bin/prettier.cjs --write ."
+    "format": "node_modules/prettier/bin/prettier.cjs --write .",
+    "example": "./node_modules/.bin/ts-node examples/example.ts"
   },
   "keywords": [
     "rxjs",
